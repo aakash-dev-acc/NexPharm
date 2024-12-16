@@ -329,11 +329,12 @@ footer {
     .listProduct {
         grid-template-columns: 1fr; /* 1 product per row on extra small screens */
     }
-
+    
     /* Adjust the order panel positioning */
     #order-section {
         width: 100%;
         position: static; /* Make sure it stays in the document flow */
         margin-top: 20px;
+        height: auto;
     }
 }
