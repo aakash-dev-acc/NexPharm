@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pharm-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://db.onlinewebfonts.com/c/b86a36b86f07f668b7ba6b2825d1b093?family=Recta-Bold');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <div id="logo">NexPharm®</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="pharmacy.html">PHARMACY</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header"> 
+            PRODUCTS
+        </div>
+        <section class="content">
+            
+            <!-- Cart Table -->
+            <section id="order-section">
+                <h2>Order Summary</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="order-table-body"></tbody>
+                </table>
+                <div class="total">
+                    <strong>Total:</strong> $<span id="total-price">0.00</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="cart-btn" id="add-to-favourites">Add to Favourites</button>
+                    <button class="cart-btn" id="apply-favourites">Apply Favourites</button>
+                    <button class="cart-btn" id="checkout">Checkout</button>
+                    <button id="clear-cart">Clear Cart</button>
+
+                </div> 
+            </section>
+
+            <!-- Div to load the products from products.json dynamically -->
+            <section class="products">
+                <div class="listProduct">
+                    
+                    <!-- Items will be here -->
+
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h2>NexPharm®</h2>
+                    <p>Delivering quality medicines anywhere around the globe. Trusted by healthcare professionals and customers alike.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: support@nexpharm.com</p>
+                    <p>Phone: +94 76-289-9876</p>
+                    <p>Address: 135 Union Square, Colombo</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Follow Us</h3>
+                    <a href="#"><img src="./images/icons/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="./images/icons/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="./images/icons/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="./images/icons/linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NexPharm®. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>

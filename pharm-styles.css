@@ -1,0 +1,339 @@
+/* Basic reset for smooth scrolling */
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Body background and font */
+body {
+    background-color: #eaeaea;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: left;
+    width: 100%;
+    background-color: #cdfdff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/* Navigation Bar styles */
+.navBar #logo{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navBar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+#logo{
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.navBar ul li:hover{
+    transform: scale(1.07);
+    transition: transform 0.3s ease;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.navBar ul li a :hover{
+    background-color: #2389fe;
+    transition: background-color 0.3s ease;
+}
+
+/* Layout for the main container */
+.content {
+    display: flex;
+    justify-content: space-between; /* Space between order section and product section */
+    padding: 20px;
+    flex-direction: row; /* Default row for larger screens */
+    margin-top: 10px;
+}
+
+/* Make the order table sticky on the left side */
+#order-section {
+    height: 91.5vh;
+    position: sticky;
+    top: 25px;  /* Keeps it stuck at the top when scrolling */
+    left: 0; /* Positions it on the left side */
+    width: 400px; /* Width of the order section */
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Order table styling */
+#order-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #efefef;
+    margin: 20px 0;
+    height: 345px;
+}
+
+#order-section h2, .total{
+    text-align: center;
+}
+
+#order-section table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#order-section button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: #454545;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+}
+
+#order-section button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #00eeff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Product grid section */
+.listProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 25px;
+    width: 95%;
+    padding: 0px 10px;
+    margin: auto;
+}
+
+/* Individual product styling */
+.product {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Product image styling */
+.item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text and price styling */
+.text {
+    margin-top: 10px;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text .price {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}
+
+.text input {
+    margin-top: 10px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Sticky sidebar (Order) positioning */
+#order-section {
+    position: sticky;
+    top: 20px;
+}
+
+/* Footer Container */
+footer {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #00ffee;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px; 
+}
+
+.footer-section h2, .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #f9f9f9;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-section img {
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+.footer-section .social a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Media queries for responsiveness across all devices */
+@media (max-width: 1024px) {
+    .navBar {
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+    }
+
+    nav ul {
+        padding: 10px 0;
+    }
+
+    .navBar #logo {
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    .navBar #logo {
+        font-size: 28px;
+    }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .listProduct {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    /* Adjust content layout to column on smaller screens */
+    .content {
+        flex-direction: column; 
+    }
+
+    /* Remove sticky behavior on smaller screens */
+    #order-section {
+        position: static;
+        width: 90%;
+        margin: 10px auto 30px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .listProduct {
+        grid-template-columns: 1fr; /* 1 product per row on extra small screens */
+    }
+
+    /* Adjust the order panel positioning */
+    #order-section {
+        width: 100%;
+        position: static; /* Make sure it stays in the document flow */
+        margin-top: 20px;
+    }
+}

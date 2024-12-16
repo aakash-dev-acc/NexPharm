@@ -1,0 +1,218 @@
+[
+    {
+        "id":1,
+        "name":"Oxycodone",
+        "price":11,
+        "image": "./images/analgesics/oxycodone.webp",
+        "category": " ( Analgesics ) "
+    },
+    
+    {
+        "id":  2,
+        "name": "Aspirin",
+        "price": 8,
+        "image": "./images/analgesics/aspirin.webp",
+        "category": "( Analgesics )"
+    },
+    
+    {
+        "id": 3,
+        "name": "Diclofenac",
+        "price": 14,
+        "image": "./images/analgesics/diclofenac.webp",
+        "category": "( Analgesics )"
+    },
+
+    {
+        "id":  4,
+        "name": "Hydrocodone",
+        "price": 7,
+        "image": "./images/analgesics/hydrocodone.webp",
+        "category": "( Analgesics )"
+    },
+    {
+        "id":  5,
+        "name": "Ibuprofen",
+        "price": 11,
+        "image": "./images/analgesics/ibuprofen.webp",
+        "category": "( Analgesics )"
+    },
+    {
+        "id":  6,
+        "name": "Naproxen",
+        "price": 16,
+        "image": "./images/analgesics/naproxen.webp",
+        "category": "( Analgesics )"
+    },
+    {
+        "id":  7,
+        "name": "Bupropion",
+        "price": 17,
+        "image": "./images/antidepressants/bupropion.webp",
+        "category": "( Anti-Depressants )"
+    },
+    {
+        "id":  8,
+        "name": "Citalopram",
+        "price": 15,
+        "image": "./images/antidepressants/citalopram.webp",
+        "category": "antidepressants"
+    },
+    {
+        "id":  9,
+        "name": "Fluoxetine",
+        "price": 12,
+        "image": "./images/antidepressants/fluoxetine.webp",
+        "category": "( Anti-Depressants )"
+    },
+    {
+        "id":  10,
+        "name": "Mirtazapine",
+        "price": 20,
+        "image": "./images/antidepressants/mirtazapine.webp",
+        "category": "( Anti-Depressants )"
+    },
+    {
+        "id":  11,
+        "name": "Paroxetine",
+        "price": 21,
+        "image": "./images/antidepressants/paroxetine.webp",
+        "category": "( Anti-Depressants )"
+    },
+    {
+        "id":  12,
+        "name": "Setraline",
+        "price": 10,
+        "image": "./images/antidepressants/setraline.webp",
+        "category": "( Anti-Depressants )"
+    },
+    {
+        "id":  13,
+        "name": "Captopril",
+        "price": 40,
+        "image": "./images/antihypertensives/captopril.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id": 14,
+        "name": "Chlorothiazide",
+        "price": 41,
+        "image": "./images/antihypertensives/chlorothiazide.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id":  15,
+        "name": "Chlorothalidone",
+        "price": 46,
+        "image": "./images/antihypertensives/chlorothalidone.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id":  16,
+        "name": "Enalapril",
+        "price": 17,
+        "image": "./images/antihypertensives/enalapril.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id":  17,
+        "name": "Fosinopril",
+        "price": 40,
+        "image": "./images/antihypertensives/fosinopril.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id":  18,
+        "name": "Lisinopril",
+        "price": 400,
+        "image": "./images/antihypertensives/lisinopril.webp",
+        "category": "( Anti-Hypertensives )"
+    },
+    {
+        "id": 19,
+        "name": "Amoxicillin",
+        "price": 8,
+        "image": "./images/antibiotics/amoxicillin.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 20,
+        "name": "Azithromycin",
+        "price": 13,
+        "image": "./images/antibiotics/azithromycin.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 21,
+        "name": "Cefdinir",
+        "price": 106,
+        "image": "./images/antibiotics/cefdinir.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 22,
+        "name": "Cephalexin",
+        "price": 10,
+        "image": "./images/antibiotics/cephalexin.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 23,
+        "name": "Doxycycline",
+        "price": 13,
+        "image": "./images/antibiotics/doxycycline.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 24,
+        "name": "Metronidazole",
+        "price": 31,
+        "image": "./images/antibiotics/metronidazole.webp",
+        "category": "( Anti-Biotics )"
+    },
+    {
+        "id": 25,
+        "name": "Allegra",
+        "price": 20,
+        "image": "./images/antihistamines/allegra.webp",
+        "category": "( Anti-Histamines )"
+    },
+    {
+        "id": 26,
+        "name": "Benadryl",
+        "price": 12,
+        "image": "./images/antihistamines/benadryl.webp",
+        "category": "( Anti-Histamines )"
+    },
+    {
+        "id": 27,
+        "name": "Cetirizine",
+        "price": 11,
+        "image": "./images/antihistamines/cetirizine.webp",
+        "category": "( Anti-Histamines )"
+    },
+    {
+        "id": 28,
+        "name": "Clarinex",
+        "price": 105,
+        "image": "./images/antihistamines/clarinex.webp" ,
+        "category": "( Anti-Histamines )"
+    },
+    {
+        "id": 29,
+        "name": "Claritin",
+        "price": 21,
+        "image": "./images/antihistamines/claritin.webp",
+        "category": "( Anti-Histamines )"
+    },
+    {
+        "id": 30,
+        "name": "Xyzal",
+        "price": 60,
+        "image": "./images/antihistamines/xyzal.webp",
+        "category": "( Anti-Histamines )"
+    }
+
+
+    
+]
