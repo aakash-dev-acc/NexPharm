@@ -32,7 +32,6 @@ checkoutForm.addEventListener('submit', (event) => {
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const address = document.getElementById('address').value.trim();
-    const paymentMethod = document.querySelector('input[name="payment-method"]:checked');
 
     let isValid = true;
 
@@ -46,10 +45,6 @@ checkoutForm.addEventListener('submit', (event) => {
     }
     if (!address) {
         alert('Please enter your address.');
-        isValid = false;
-    }
-    if (!paymentMethod) {
-        alert('Please select a payment method.');
         isValid = false;
     }
 
