@@ -28,7 +28,8 @@ function addDatatoHtml(products) {
                 <h3>${product.name}</h3>
                 <h4>${product.category}</h4>
                 <div class="price">$${product.price}.00</div>
-                <input type="number" min="0" value="0" class="item" 
+                <label for="item">Quantity: </label>
+                <input type="number" min="0" value="0" class="item"
                     data-id="${product.id}" 
                     data-name="${product.name}" 
                     data-price="${product.price}" />
